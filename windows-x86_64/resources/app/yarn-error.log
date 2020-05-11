@@ -1,0 +1,87 @@
+Arguments: 
+  /usr/bin/node8 /usr/share/yarn/bin/yarn.js dist
+
+PATH: 
+  /home/rujbin/bin:/home/rujbin/bin:/usr/local/bin:/usr/bin:/bin:/home/rujbin/.dotnet/tools:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  8.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/rujbin/electron-quick-start/package.json: Unexpected token 
+   in JSON at position 468
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+      at <anonymous>
+
+npm manifest: 
+  {
+  
+    "name": "electron-quick-start",
+  
+    "version": "1.0.0",
+  
+    "description": "A minimal Electron application",
+  
+    "main": "main.js",
+  
+    "scripts": {
+  
+      "start": "electron .",
+    "pack": "electron-builder --dir",
+  
+    "dist": "electron-builder"
+    },
+  
+    "repository": "https://github.com/electron/electron-quick-start",
+  
+    "keywords": [
+  
+      "Electron",
+  
+      "quick",
+  
+      "start",
+  
+      "tutorial",
+  
+      "demo"
+  
+    ],
+  
+    "author": "GitHub",
+  
+    "license": "CC0-1.0",
+  
+    "d
+  evDependencies": {
+  
+  
+    },
+  "build": {
+  
+    "appId": "github.com/pushergene",
+  
+    "mac": {
+  
+      "category": "your.app.category.type"
+  
+    }
+  
+  }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
